@@ -7,7 +7,7 @@ import org.scalatest.{FeatureSpec, GivenWhenThen}
 @RunWith(classOf[JUnitRunner])
 class FizzBuzzFeatureSpec extends FeatureSpec with GivenWhenThen {
   feature ("Fizz Buzz") {
-    scenario ("Print out count to a specified number") {
+    scenario ("Provide count to a specified number") {
       Given ("I have a fizz buzz app")
 
       When ("I ask for a count to 15")
