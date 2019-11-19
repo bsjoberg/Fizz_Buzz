@@ -16,6 +16,10 @@ class FizzBuzzTest extends FlatSpec {
     assert("buzz" == FizzBuzz.getResult(10))
   }
 
+  it should "return fizzbuzz when divisible by 15" in {
+    assert("fizzbuzz" == FizzBuzz.getResult(15))
+  }
+
   it should "return a number when not divisible by 3, 5, or 15" in {
     assert(2 == FizzBuzz.getResult(2))
   }
